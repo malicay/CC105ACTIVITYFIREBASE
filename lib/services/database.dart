@@ -17,7 +17,7 @@ class DatabaseService {
       'strength': strength,
     });
   }
-
+// brew list
   // brew list from snapshot
   List<Brew> _brewListFromSnapshot(QuerySnapshot snapshot) {
     return snapshot.documents.map((doc) {
